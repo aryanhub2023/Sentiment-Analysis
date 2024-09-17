@@ -6,18 +6,30 @@ This project is focused on training a sentiment analysis model to classify text 
 
 Sentiment-Analysis/
 │
-├── balance_data.py        # Script to balance the training and testing datasets
-├── script.py              # Main script for training and evaluating sentiment analysis model
-├── sentiment_inference.py # Script for predicting sentiment on new reviews
-├── shuffle_lines.py       # Script for shuffling the lines in train.txt and test.txt files
-├── dataset                # Create the Dataset folder and add your datasets
-│   ├── train.txt          # Training dataset (shuffled after balancing)
-│   ├── test.txt           # Test dataset (shuffled after balancing)
-├── X_train_tfidf.pkl      # Saved TF-IDF vectorized training data (if generated)
-├── X_test_tfidf.pkl       # Saved TF-IDF vectorized test data (if generated)
-├── tfidf_vectorizer.pkl   # Saved TF-IDF vectorizer model
-├── sentiment_model.pkl    # Saved Naive Bayes model after training
-└── README.md              # This file
+
+├── balance_data.py            # Script to balance the training and testing datasets
+
+├── script.py                  # Main script for training and evaluating sentiment analysis model
+
+├── sentiment_inference.py     # Script for predicting sentiment on new reviews
+
+├── shuffle_lines.py           # Script for shuffling the lines in train.txt and test.txt files
+
+├── dataset                    # Create the Dataset folder and add your datasets
+        
+        │────── train.txt      # Training dataset (shuffled after balancing)
+
+        │────── test.txt       # Test dataset (shuffled after balancing)
+
+├── X_train_tfidf.pkl          # Saved TF-IDF vectorized training data (if generated)
+
+├── X_test_tfidf.pkl           # Saved TF-IDF vectorized test data (if generated)
+
+├── tfidf_vectorizer.pkl       # Saved TF-IDF vectorizer model
+
+├── sentiment_model.pkl        # Saved Naive Bayes model after training
+
+└── README.md                  # This file
 
 ## Steps to Run the Project
 
