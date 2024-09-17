@@ -10,7 +10,7 @@ Sentiment-Analysis/
 ├── script.py              # Main script for training and evaluating sentiment analysis model
 ├── sentiment_inference.py # Script for predicting sentiment on new reviews
 ├── shuffle_lines.py       # Script for shuffling the lines in train.txt and test.txt files
-├── dataset/
+├── dataset                # Create the Dataset folder and add your datasets
 │   ├── train.txt          # Training dataset (shuffled after balancing)
 │   ├── test.txt           # Test dataset (shuffled after balancing)
 ├── X_train_tfidf.pkl      # Saved TF-IDF vectorized training data (if generated)
