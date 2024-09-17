@@ -5,7 +5,6 @@ This project is focused on training a sentiment analysis model to classify text 
 ## Project Structure
 
 Sentiment-Analysis/
-│
 
 ├── balance_data.py            # Script to balance the training and testing datasets
 
